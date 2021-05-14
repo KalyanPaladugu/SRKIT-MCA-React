@@ -19,7 +19,7 @@ export class ClickCounter extends PureComponent {
         const {count} =this.state
         return (
             <div>
-               <button onMouseOver={this.increment}>Hovered {count} times</button> 
+               <button onClick={this.increment}>Clicked {count} times</button> 
             </div>
         )
     }
